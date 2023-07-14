@@ -1,0 +1,109 @@
+
+:root {
+    --main-color: #4CAF4F;
+    --color-bej: #E0E0E0;
+    --color-gray: #4D4D4D;
+}
+h2{
+    color: var(--color-gray);
+    font-weight: 700;
+    font-size: 36px;
+}
+h2 span{
+    color: var(--main-color);
+}
+h3{
+    color: var(--color-gray);
+    font-size: 30px;
+    font-weight: 600;
+}
+h4{
+    color: var(--main-color);
+}
+.btn {
+    background-color: var(--main-color) !important;
+}
+::placeholder{
+    color: white !important;
+}
+.bg-bej{
+    background: var(--color-bej);
+}
+.bg-footer{
+    background-color: #263238 !important;
+}
+.color-main{
+    color: var(--main-color);
+}
+/*!----NAVBAR----*/
+.navbar span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.container .row .col-8 span{
+    color:var(--main-color);
+}
+/*!----OUR CLİENTS----*/
+.icons img{
+    /* margin:5px 50px; */
+    width: 50px;
+}
+.img-relative{
+    position: relative;
+}
+.img-absolute{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+}
+section .col-4 .img img{
+    width: 50px;
+}
+/*----5----*/
+.col-card-relative{
+    position: relative;
+    padding-bottom: 50px;
+}
+.col-card-absolute{
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+/*----6----*/
+.sec-6-h1 h1{
+    font-size: 75px;
+}
+
+@media screen and (max-width: 768px) {
+    .register-btn {
+        width: 100% !important;
+    }
+    /*!-clients-reponsive-*/
+    .clients-reponsive{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .clients-reponsive .col-4{
+        margin: 5px auto;
+        width: 50% !important;
+    }
+    .reponsive-cards{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .reponsive-card{
+        width: 300px !important;
+        margin: 20px auto;
+    }
+.sec-6-h1 h1{
+    font-size: 50px;
+}
+.company-links-responsive{
+    display: none;
+}
+.footer-input-responsive{
+    width: 200px !important;
+}
+}
